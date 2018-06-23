@@ -1,4 +1,6 @@
 import math, sys
+"""Solution to https://adventofcode.com/2017/day/3
+"""
 
 def av(x):
 	# Special case for perfect odd square.
