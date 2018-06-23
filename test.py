@@ -1,0 +1,31 @@
+from unittest import TestCase
+from day_3_pt_1 import av
+
+class TestAV(TestCase):
+	def testvals(self):
+		self.assertEqual( av(1), 0 )
+		self.assertEqual( av(2), 1 )
+		self.assertEqual( av(3), 2 )
+		self.assertEqual( av(4), 1 )
+		self.assertEqual( av(5), 2 )
+		self.assertEqual( av(6), 1 )
+		self.assertEqual( av(7), 2 )
+		self.assertEqual( av(8), 1 )
+		self.assertEqual( av(9), 2 )
+		self.assertEqual( av(10), 3 )
+		self.assertEqual( av(11), 2 )
+		self.assertEqual( av(12), 3 )
+		self.assertEqual( av(13), 4 )
+		self.assertEqual( av(14), 3 )
+		self.assertEqual( av(15), 2 )
+		self.assertEqual( av(17), 4 )
+		self.assertEqual( av(19), 2 )
+		self.assertEqual( av(23), 2 )
+		self.assertEqual( av(25), 4 )
+		self.assertEqual( av(28), 3 )
+		self.assertEqual( av(31), 6 )
+		self.assertEqual( av(32), 5 )
+		self.assertEqual( av(33), 4 )
+		self.assertEqual( av(34), 3 )
+		self.assertEqual( av(37), 6 )
+		self.assertEqual( av(49), 6 )
